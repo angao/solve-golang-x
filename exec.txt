@@ -1,0 +1,7 @@
+mkdir -p $GOPATH/src/golang.org/x/
+cd $GOPATH/src/golang.org/x/
+git clone https://github.com/golang/net.git net 
+git clone https://github.com/golang/crypto.git crypto
+git clone https://github.com/golang/sys.git sys
+git clone https://github.com/golang/tools.git tools
+git clone https://github.com/golang/text.git text
